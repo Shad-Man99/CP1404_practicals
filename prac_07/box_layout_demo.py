@@ -25,7 +25,7 @@ class ButtonEventDemo(App):
 
 class ButtonEventDemo(App):
     def reset_label(self):
-        self.tile = "Clear text and output"
+        self.tile = 'Clear text and output'
         self.root = Builder.load_file('box_layout.kv')
         return self.root
 
