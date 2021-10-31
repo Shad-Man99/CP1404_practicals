@@ -10,3 +10,4 @@ while search_criteria != "":
     except wikipedia.exceptions.DisambiguationError as e:
         print(e.options)
     search_criteria = str(input("\n" + "Please enter information to search: "))
+
